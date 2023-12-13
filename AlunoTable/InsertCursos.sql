@@ -11,4 +11,7 @@ INSERT INTO [Curso]([Nome], [CategoriaId]) VALUES('Fundamentos de Entity Framewo
 
 SELECT * FROM [Categoria]
 
-SELECT * FROM [Curso]
+SELECT [Id], [Nome], [CategoriaId] FROM [Curso] WHERE [Id] = 1 AND CategoriaId = 1; 
+
+
+
